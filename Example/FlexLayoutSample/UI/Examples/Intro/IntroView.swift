@@ -36,6 +36,7 @@ class IntroView: UIView {
         bottomLabel.text = "FlexLayout/yoga is incredibly fast, its even faster than manual layout."
         bottomLabel.numberOfLines = 0
         
+        rootFlexContainer.backgroundColor = .systemTeal
         rootFlexContainer.flex.direction(.column).padding(12).define { (flex) in
             flex.addItem().direction(.row).define { (flex) in
                 flex.addItem(imageView).width(100).aspectRatio(of: imageView)

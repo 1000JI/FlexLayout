@@ -27,12 +27,12 @@ class Example1View: UIView {
         let view2 = BasicView(text: "View 2")
         let view3 = BasicView(text: "View 3")
         
+        rootFlexContainer.backgroundColor = .systemTeal
         rootFlexContainer.flex.justifyContent(.center).padding(10).define { (flex) in
             flex.addItem(view1).height(40)
             flex.addItem(view2).height(40).marginTop(10)
             flex.addItem(view3).height(40).marginTop(10)
         }
-        
         addSubview(rootFlexContainer)
     }
     

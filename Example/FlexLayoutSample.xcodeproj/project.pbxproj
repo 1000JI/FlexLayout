@@ -37,9 +37,9 @@
 		24FB88421F59CA9A00615D33 /* MethodGroupHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FB88401F59CA9A00615D33 /* MethodGroupHeader.swift */; };
 		60BAE156247DF4120020119C /* YogaExampleFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BAE155247DF4120020119C /* YogaExampleFView.swift */; };
 		60BAE158247DF4CE0020119C /* YogaExampleFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BAE157247DF4CE0020119C /* YogaExampleFViewController.swift */; };
-		B9BDD93E240A70C3005298B3 /* FlexLayout in Frameworks */ = {isa = PBXBuildFile; productRef = B9BDD93D240A70C3005298B3 /* FlexLayout */; };
-		B9BDD940240A70C3005298B3 /* FlexLayoutYoga in Frameworks */ = {isa = PBXBuildFile; productRef = B9BDD93F240A70C3005298B3 /* FlexLayoutYoga */; };
-		B9BDD942240A70C3005298B3 /* FlexLayoutYogaKit in Frameworks */ = {isa = PBXBuildFile; productRef = B9BDD941240A70C3005298B3 /* FlexLayoutYogaKit */; };
+		B9BDD93E240A70C3005298B3 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = B9BDD93D240A70C3005298B3 /* SwiftPackageProductDependency */; };
+		B9BDD940240A70C3005298B3 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = B9BDD93F240A70C3005298B3 /* SwiftPackageProductDependency */; };
+		B9BDD942240A70C3005298B3 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = B9BDD941240A70C3005298B3 /* SwiftPackageProductDependency */; };
 		B9EA7C662409B7B5000D8E35 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242AECDF1FA011630024E7C2 /* BaseViewController.swift */; };
 		B9EA7C672409B7B5000D8E35 /* BasicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242AECE01FA011630024E7C2 /* BasicView.swift */; };
 		B9EA7C682409B7B5000D8E35 /* Stylesheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242AECE11FA011630024E7C2 /* Stylesheet.swift */; };
@@ -73,7 +73,7 @@
 		B9EA7C842409B7E2000D8E35 /* Show.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C0F20F1F4EE9B20050BEE7 /* Show.swift */; };
 		B9EA7C852409B7E7000D8E35 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B14C591F278CCE00C90490 /* IntroView.swift */; };
 		B9EA7C862409B7E7000D8E35 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B14C5A1F278CCE00C90490 /* IntroViewController.swift */; };
-		B9EA7C922409BAE1000D8E35 /* PinLayout in Frameworks */ = {isa = PBXBuildFile; productRef = B9EA7C912409BAE1000D8E35 /* PinLayout */; };
+		B9EA7C922409BAE1000D8E35 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = B9EA7C912409BAE1000D8E35 /* SwiftPackageProductDependency */; };
 		B9EA7C932409BB0C000D8E35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 249EFE491E64FAFE00165E39 /* Assets.xcassets */; };
 		B9EA7C942409BB13000D8E35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 249EFE4B1E64FAFE00165E39 /* LaunchScreen.storyboard */; };
 		B9EA7C952409BB30000D8E35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249EFE421E64FAFE00165E39 /* AppDelegate.swift */; };
@@ -154,10 +154,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9EA7C922409BAE1000D8E35 /* PinLayout in Frameworks */,
-				B9BDD93E240A70C3005298B3 /* FlexLayout in Frameworks */,
-				B9BDD942240A70C3005298B3 /* FlexLayoutYogaKit in Frameworks */,
-				B9BDD940240A70C3005298B3 /* FlexLayoutYoga in Frameworks */,
+				B9EA7C922409BAE1000D8E35 /* BuildFile in Frameworks */,
+				B9BDD93E240A70C3005298B3 /* BuildFile in Frameworks */,
+				B9BDD942240A70C3005298B3 /* BuildFile in Frameworks */,
+				B9BDD940240A70C3005298B3 /* BuildFile in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,10 +424,10 @@
 			);
 			name = FlexLayoutSampleSPM;
 			packageProductDependencies = (
-				B9EA7C912409BAE1000D8E35 /* PinLayout */,
-				B9BDD93D240A70C3005298B3 /* FlexLayout */,
-				B9BDD93F240A70C3005298B3 /* FlexLayoutYoga */,
-				B9BDD941240A70C3005298B3 /* FlexLayoutYogaKit */,
+				B9EA7C912409BAE1000D8E35 /* SwiftPackageProductDependency */,
+				B9BDD93D240A70C3005298B3 /* SwiftPackageProductDependency */,
+				B9BDD93F240A70C3005298B3 /* SwiftPackageProductDependency */,
+				B9BDD941240A70C3005298B3 /* SwiftPackageProductDependency */,
 			);
 			productName = FlexLayoutSampleSPM;
 			productReference = B9EA7C522409B79B000D8E35 /* FlexLayoutSampleSPM.app */;
@@ -483,8 +483,8 @@
 			);
 			mainGroup = 249EFE361E64FAFE00165E39;
 			packageReferences = (
-				B9EA7C892409B986000D8E35 /* XCRemoteSwiftPackageReference "FlexLayout" */,
-				B9EA7C902409BAE1000D8E35 /* XCRemoteSwiftPackageReference "PinLayout" */,
+				B9EA7C892409B986000D8E35 /* RemoteSwiftPackageReference */,
+				B9EA7C902409BAE1000D8E35 /* RemoteSwiftPackageReference */,
 			);
 			productRefGroup = 249EFE401E64FAFE00165E39 /* Products */;
 			projectDirPath = "";
@@ -543,12 +543,15 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FlexLayoutSample/Pods-FlexLayoutSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlexLayoutSample/Pods-FlexLayoutSample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FlexLayout/FlexLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/PinLayout/PinLayout.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FlexLayoutSample/Pods-FlexLayoutSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FlexLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PinLayout.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -894,7 +897,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		B9EA7C892409B986000D8E35 /* XCRemoteSwiftPackageReference "FlexLayout" */ = {
+		B9EA7C892409B986000D8E35 /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Tundaware/FlexLayout";
 			requirement = {
@@ -902,7 +905,7 @@
 				kind = branch;
 			};
 		};
-		B9EA7C902409BAE1000D8E35 /* XCRemoteSwiftPackageReference "PinLayout" */ = {
+		B9EA7C902409BAE1000D8E35 /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/layoutBox/PinLayout.git";
 			requirement = {
@@ -913,21 +916,21 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		B9BDD93D240A70C3005298B3 /* FlexLayout */ = {
+		B9BDD93D240A70C3005298B3 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = FlexLayout;
 		};
-		B9BDD93F240A70C3005298B3 /* FlexLayoutYoga */ = {
+		B9BDD93F240A70C3005298B3 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = FlexLayoutYoga;
 		};
-		B9BDD941240A70C3005298B3 /* FlexLayoutYogaKit */ = {
+		B9BDD941240A70C3005298B3 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = FlexLayoutYogaKit;
 		};
-		B9EA7C912409BAE1000D8E35 /* PinLayout */ = {
+		B9EA7C912409BAE1000D8E35 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = B9EA7C902409BAE1000D8E35 /* XCRemoteSwiftPackageReference "PinLayout" */;
+			package = B9EA7C902409BAE1000D8E35 /* RemoteSwiftPackageReference */;
 			productName = PinLayout;
 		};
 /* End XCSwiftPackageProductDependency section */
